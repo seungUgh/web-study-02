@@ -31,6 +31,7 @@ public class ServletLifeCycle extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("doPost()");
 		doGet(request, response);
 	}
 
